@@ -1,0 +1,66 @@
+body{
+  font-family: "Segoe UI", Serif;
+}
+ul.menu{
+  padding-left: 0px;
+}
+ul.menu li{
+  list-style: none;
+  background: black;
+  border:1px solid #CCC;
+  margin-bottom: 5px;
+  padding-top:8px;
+  padding-bottom:8px;
+}
+ul.menu li a{
+  color:#555;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform:capitalize;
+  font-family: "Segoe UI", Serif;
+}
+.title-page{
+  /*background: #0066cc;*/
+  background: #FF2A2A;
+  border:1px solid #D40000;
+  font-family: "Segoe UI", Serif;
+  display: block;
+  padding-top:5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: -2px;
+  color: #FFF;
+}
+.logo-header{
+  float: left;
+}
+.corp{
+  float:left;
+  font-size: 42px;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-family: "SF Collegiate", Serif;
+}
+img.profil{
+  margin-right: 5px;
+  padding: 3px;
+  background-color: #f5f5f5;
+  border:1px solid #CCC;
+}
+
+p{
+  font-family: "Segoe UI", Serif;
+  text-align: justify;
+}
+
+ul.head li{
+  font-weight: bold;
+}
+
+ul.sub li{
+  font-weight: normal;
+}
+.portofolio{
+  width: 100%;
+}
