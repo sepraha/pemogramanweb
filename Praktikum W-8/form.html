@@ -263,7 +263,7 @@ function book(){
 	var passenger_child 	= document.booking.passenger_child.value;
 	var class_of_service 	= document.booking.class_of_service.value;
 
-	if(type_of_journey == "" || depature_city == "" || arrival_city=="" || depature_date=="" || return_date=="" || class_of_service==""){
+	if  (type_of_journey == "" || depature_city == "" || arrival_city=="" || depature_date=="" || return_date=="" || class_of_service==""){
 		alert("Please complete the form!");
 	}else if(depature_city == arrival_city){
 		alert("Depature City Arrival City Can't Same!!");
@@ -293,4 +293,5 @@ function book(){
 		document.booking.verification_code.value = verification_code;
 	}
 }
+
 </script>
