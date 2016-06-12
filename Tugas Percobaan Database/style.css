@@ -1,0 +1,35 @@
+body{
+	font-family: "Segoe UI", Serif;
+}
+.content{
+	margin: auto;
+	width:960px;
+	border:1px solid #CCC;
+	padding: 10px;
+	background: #f5f5f5;
+}
+h2{
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+}
+
+input[type="text"]{
+	padding: 5px 3px;
+	border:1px solid #CCC;
+}
+
+input[type="submit"]{
+	padding: 5px 10px;
+	font-weight: bold;
+}
+label{
+	margin-bottom:5px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table th{
+	
+}
