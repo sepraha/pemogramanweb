@@ -1,18 +1,30 @@
 body{
 	font-family: "Segoe UI", Serif;
 }
-.content{
+#container{
 	margin: auto;
 	width:960px;
+}
+.content{
+	float: left;
+	width: 100%;
 	border:1px solid #CCC;
 	padding: 10px;
-	background: #f5f5f5;
 }
-h2{
-	text-align: center;
-	border-bottom: 1px solid #CCC;
+.header{
+	float: left;
+	width: 100%;
+	background: #1692e5;
+	padding-right: 11px;
+	padding-left: 11px;
+	padding-top:5px;
+	padding-bottom: 5px;
 }
-
+.title-head{
+	font-size: 24px;
+	color: white;
+	margin-top: 5px !important;
+}
 input[type="text"]{
 	padding: 5px 3px;
 	border:1px solid #CCC;
@@ -21,15 +33,32 @@ input[type="text"]{
 input[type="submit"]{
 	padding: 5px 10px;
 	font-weight: bold;
+	margin-top: 10px;
 }
 label{
-	margin-bottom:5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 14px;
 }
 table{
 	width: 100%;
 	border-collapse: collapse;
 }
 
-table th{
-	
+th,td{
+	padding: 8px;
+}
+
+th{
+	background: #1692e5;
+}
+td:last-child{
+	width: 145px;
+}
+a.act{
+	border:1px solid #CCC;
+	padding: 3px 5px;
+	background: #f5f5f5;
+	text-decoration: none;
+	color:#333;
 }
